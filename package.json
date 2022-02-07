@@ -1,0 +1,43 @@
+{
+  "name": "bootstrap-4.6-4k",
+  "version": "0.1.0",
+  "description": "if you need to add support for xxl, 2k, 4k to bootstrap 4.7 you can use this",
+  "main": "index.js",
+  "scripts": {
+    "test":                "echo \"Error: no test specified\" && exit 1",
+    "rebuild-all-4k":      "npm run clean-build && npm run build-all-4k",
+    "clean-build":         "echo \"not ready\" && exit 1",
+    "build-all-4k":        "npm run build-bootstrap-4k && npm run build-grid-4k && npm run build-diff-4k",
+    "build-all":           "npm run build-bootstrap && npm run build-grid",
+    "build-bootstrap-4k":  "sass source/scss/bootstrap-4k.scss build/css/bootstrap-4k.css",
+    "build-bootstrap":     "sass source/scss/bootstrap.scss build/css/bootstrap.css",
+    "build-grid-4k":       "sass source/scss/bootstrap-grid-4k.scss build/css/bootstrap-grid-4k.css",
+    "build-grid":          "sass source/scss/bootstrap-grid.scss build/css/bootstrap-grid.css",
+    "build-diff-4k":       "sass source/scss/bootstrap-diff-4k.scss build/css/bootstrap-diff-4k.css"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinan-t/bootstrap-4.6-4k.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "bootstrap-4.6",
+    "4k",
+    "4k-support",
+    "css",
+    "scss"
+  ],
+  "author": "Sina R.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sinan-t/bootstrap-4.6-4k/issues"
+  },
+  "homepage": "https://github.com/sinan-t/bootstrap-4.6-4k#readme",
+  "devDependencies": {
+    "sass": "^1.49.7"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.1",
+    "jquery": "^3.6.0"
+  }
+}
