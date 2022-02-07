@@ -32,7 +32,7 @@ But to compile everything and get all the possible 4k support `css` files you ca
 
     npm run build-all-4k
     
-## How to make use of new boostrap 
+## How to make use of new bootstrap 
 
 ### If you are gonna code in `scss`
 TODO: will be added soon
