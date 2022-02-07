@@ -17,7 +17,7 @@ This version includes the whole 4.6 bootstrap + `xxl`, `2k` and `4k` and its rec
 This is bootstrap-grid + `xxl`, `2k` and `4k` and its recommended.
 
 #### bootstrap-diff-4k.css
-This only includes `xxl`, `2k` and `4k` and should be **ONLY** used after you included `bootstrap.css` or `bootstrap-grid.css` in your html file ( good for times when you want to use **cdn** for `bootstrap` or `boostrap-grid`
+This only includes `xxl`, `2k` and `4k` and should be **ONLY** used after you included `bootstrap.css` or `bootstrap-grid.css` in your html file ( good for times when you want to use **cdn** for `bootstrap` or `boostrap-grid` )
 
 ### Source versions
 check `source/scss` and its pretty much self explanatory ( will add more info later )
